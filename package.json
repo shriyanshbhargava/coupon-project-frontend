@@ -1,0 +1,29 @@
+{
+  "name": "coupon-fe",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prepare": "husky install"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "next lint",
+      "pre-push": "next build"
+    }
+  },
+  "dependencies": {
+    "next": "13.5.4",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "13.5.4",
+    "husky": "^8.0.3",
+    "prettier": "^3.0.3"
+  }
+}
