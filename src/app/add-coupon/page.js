@@ -7,6 +7,9 @@ export default function AddCoupon() {
       <div className={styles.center}>
         <h2>Add Coupon Page</h2>
       </div>
+      <div className='text-3xl text-green-600 p-2'>
+        <h2>Add Coupon Page</h2>
+      </div>
     </main>
   )
 }
