@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,700;0,800;0,900;1,800&display=swap');
 
 .HeaderMain {
+  top: 0;
+  position: fixed;
   width: 100%;
   background-color: rgb(116, 31, 162);
   margin: none;
@@ -24,4 +26,23 @@
 .HeaderThreeLink:hover {
   background-color: rgba(59, 130, 246, 0.5);
   transition: ease-in-out 0.3s;
+}
+
+.searchBar {
+  background-color: white;
+  border-radius: 20px;
+  color: black;
+  display: flex;
+  align-items: center;
+  padding: 0px 20px 0px 15px;
+}
+
+@media only screen and (max-width: 768px) {
+  .searchBar input {
+    width: 12rem;
+  }
+
+  .HeaderThreeLink:hover {
+    background-color: none;
+  }
 }
