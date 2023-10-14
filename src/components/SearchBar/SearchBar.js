@@ -1,5 +1,5 @@
 import React from 'react'
-import * as styles from './Header.module.css'
+import * as styles from './SearchBar.module.css'
 import { FaSearch } from 'react-icons/fa'
 
 const SearchBar = () => {
