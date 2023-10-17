@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,700;0,800;0,900;1,800&display=swap');
+
+.CouponCardSeek {
+  background-color: #ecf2fe;
+  padding: 10px 70px;
+  margin-left: 40px;
+  color: black;
+}
+
+.mainDivCoupon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+@media only screen and (max-width: 768px) {
+  .mainDivCoupon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
